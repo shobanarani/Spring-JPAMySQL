@@ -11,6 +11,4 @@ import com.shoba.springJPAMysql.model.accounts;
 public interface accountsRepository extends JpaRepository<accounts,Integer>{
 	
 	
-	
-	accounts findById(int id);
 }
